@@ -1,21 +1,35 @@
-# React + TypeScript + Vite + shadcn/ui
+# Frappe React UI Components
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+The remote component registry powering Frappe React UI.
 
-## Adding components
+This repository contains raw component source files, templates, registry definitions, hooks, and utilities used by the Frappe React UI CLI.
 
-To add components to your app, run the following command:
+Components are fetched directly from this repository during installation, ensuring developers always receive the latest component versions.
+
+## Usage
+
+This repository is intended to be consumed by:
 
 ```bash
-npx shadcn@latest add button
+npx frappe-react-ui add button
 ```
 
-This will place the ui components in the `src/components` directory.
+## Features
 
-## Using components
+- Raw React component templates
+- Registry-driven architecture
+- Tailwind-compatible components
+- Shared hooks and utilities
+- Source-first customization
+- Live component delivery
 
-To use the components in your app, import them as follows:
+## Philosophy
 
-```tsx
-import { Button } from "@/components/ui/button"
-```
+Components are distributed as source code instead of compiled packages.
+
+This gives developers:
+
+- Full ownership
+- Easy customization
+- Better debugging
+- Flexible architecture
