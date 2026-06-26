@@ -1,0 +1,22 @@
+{
+ "app": "frappe_react_ui_components",
+ "bg_color": "gray",
+ "creation": "2026-06-26 05:28:28.660327",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "React UI",
+ "link": "/react-ui",
+ "link_to": "",
+ "link_type": "External",
+ "logo_url": "/assets/frappe_react_ui_components/react-ui-180.png",
+ "modified": "2026-06-26 05:29:57.914190",
+ "modified_by": "Administrator",
+ "name": "React UI",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}
