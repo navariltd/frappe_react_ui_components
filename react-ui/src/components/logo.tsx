@@ -7,7 +7,7 @@ interface LogoProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 export function Logo({ size = 24, className, ...props }: LogoProps) {
   return (
     <img
-      src="/logo.png"
+      src="/assets/frappe_react_ui_components/react-ui-180.png"
       alt="Frappe React UI Logo"
       width={size}
       height={size}
