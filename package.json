@@ -1,0 +1,19 @@
+{
+  "name": "frappe_react_ui_components",
+  "version": "1.0.0",
+  "description": "The official source registry and interactive sandbox for the Frappe React UI ecosystem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd react-ui && yarn install",
+    "dev": "cd react-ui && yarn dev",
+    "build": "cd react-ui && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react-is": "^19.2.7"
+  }
+}
