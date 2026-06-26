@@ -19,7 +19,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "../frappe_react_ui_kit/public/frontend",
+    outDir: "../frappe_react_ui_components/public/react-ui",
     emptyOutDir: true,
     target: "es2015",
   },
